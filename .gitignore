@@ -1,6 +1,33 @@
+#Eclipse project files and directories
+
+#Eclipse dirs
+Servers
+RemoteSystemsTempFiles/
+
+#Eclipse files
+.metadata
+.settings
+.project
+.classpath
+.springBeans
+
+
+#Maven target directories
+target
+
+###
+###Common Java exclusions
+###
 *.class
 
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
 # Package Files #
+*.class
 *.jar
 *.war
 *.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
